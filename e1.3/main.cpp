@@ -1,15 +1,10 @@
-//
-//  main.cpp
-//  e1.3
-//
-//  Created by Sergio campos on 5/19/19.
-//  Copyright © 2019 Sergio campos. All rights reserved.
-//
+// •• E1.3Write a program that prints the product of the first ten positive integers, 1 × 2 × … × 10. (Use * to indicate multiplication in C++.)
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main()
+{
+    cout << 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 << endl;
 }
